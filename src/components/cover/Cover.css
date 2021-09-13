@@ -1,0 +1,29 @@
+.cover-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  object-fit: contain; /*Siempre la misma anchura sea el dispositivo que sea*/
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); /*Efecto de opacidad sobre el video*/
+}
+
+.cover-container--video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1; /*para que quede por debajo asi logramos efecto de opacidad*/
+}
+
+.cover-container > h1 {
+  color: white;
+  font-size: 10rem;
+}
+
+.cover-container > p{
+  margin-top: 0.8rem;
+  color: white;
+  font-size: 3.2rem;
+}
