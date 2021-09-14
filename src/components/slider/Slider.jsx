@@ -1,0 +1,32 @@
+import React from 'react'
+import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel'; //importamos el carousel
+import '@brainhubeu/react-carousel/lib/style.css'; //importamos el css que viene instalado en el paquete
+import Data from './Data';
+import './Slider.css'
+
+const Slider = () => {
+  console.log(Data)
+  return (
+    <div className='carousel-container'>
+      <div className='carousel-container__title'>
+        <h2>Mis proyectos</h2>
+      </div>
+      <Carousel
+        plugins={[
+          'arrows',
+          'infinite',
+          {
+            resolve: slidesToShowPlugin,
+            options: {
+              numberOfSlides: 3
+            }
+          },
+        ]}
+      >
+        {Data}
+      </Carousel>
+    </div>
+  )
+}
+
+export default Slider

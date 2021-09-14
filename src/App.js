@@ -3,6 +3,7 @@ import './App.css';
 import Cover from './components/cover/Cover.jsx';
 import Navbar from './components/navbar/Navbar';
 import About from './components/about/About';
+import Slider from './components/slider/Slider';
 
 function App() {
   const [scroll, setScroll] = useState(0);
@@ -21,6 +22,7 @@ function App() {
       <Navbar isScrolling={scroll} />
       <Cover />
       <About />
+      <Slider />
     </div>
   );
 }
