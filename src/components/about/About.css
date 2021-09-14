@@ -25,6 +25,7 @@
 
 .about-container__img{
   width: 45%;
+  height: 300px;
   margin-top: 50px;
   display: flex;
   align-self: center;
