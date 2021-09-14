@@ -17,10 +17,10 @@ const Footer = () => {
           Diseñado por Luciano Nicolas Pereira
         </div>
         <div className='footer-sns--links'>
-          <a href="linkedin.com/in/luciano-nicolas-pereira-dev" target='_blank'>
+          <a href="https://linkedin.com/in/luciano-nicolas-pereira-dev" target='_blank' rel='noreferrer'>
             <i className='fab fa-linkedin linkedin'></i>
           </a>
-          <a href="github.com/Gantalf " target='_blank'>
+          <a href="https://github.com/Gantalf " target='_blank' rel='noreferrer'>
             <i className='fab fa-github github'></i>
           </a>
           <a href="https://twitter.com/pereira22995" target='_blank' rel='noreferrer'>

@@ -20,6 +20,7 @@
 }
 
 .about-container__desc > p {
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 
@@ -31,4 +32,33 @@
   align-self: center;
   justify-content: center;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 960px) {
+  .about-container {
+    flex-direction: column;
+    padding: 0;
+    height: auto;
+  }
+
+  .about-container__desc{
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 20px 50px 20px;
+  }
+
+  .about-container__desc > h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-container__img{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .about-container__img > img {
+    max-width: 400px;
+  }
 }

@@ -27,3 +27,16 @@
   color: white;
   font-size: 3.2rem;
 }
+
+@media screen and (max-width: 960px) {
+  .cover-container > h1 {
+    font-size: 7rem;
+    text-align: center;
+  }
+
+  .cover-container > p {
+    text-align: center;
+    font-size: 2.2rem;
+    width: 85%;
+  }
+}

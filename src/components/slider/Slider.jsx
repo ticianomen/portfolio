@@ -14,14 +14,25 @@ const Slider = () => {
       <Carousel
         plugins={[
           'arrows',
-          'infinite',
           {
             resolve: slidesToShowPlugin,
             options: {
-              numberOfSlides: 3
+              numberOfSlides: 3,
             }
           },
         ]}
+        breakpoints={{
+          960: {
+            plugins: [
+              {
+                resolve: slidesToShowPlugin,
+                options: {
+                  numberOfSlides: 1
+                }
+              }
+            ]
+          }
+        }}
       >
         {Data}
       </Carousel>

@@ -6,8 +6,10 @@ const About = () => {
   return (
     <div className='about-container'>
       <div className='about-container__desc'>
-        <h3>about me</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut laboriosam quo, quia vero deleniti quam facilis vitae aperiam minima, quaerat tempora inventore sint repudiandae id ad voluptatem officiis hic. Aut.</p>
+        <h3>Sobre mí</h3>
+        <p>Desarrollador FullStack con JavaScript y Node.js. Me especializo en el front-end.
+          Me gusta aprender constantemente nuevas herramientas para mejorar y desarrollar de manera profesional. Me preocupo por producir código duradero, útil y lo mas importante escalable.
+          Tengo experiencia realizando proyectos con las tecnologias: React (con javascript y typescript), Redux, Express, Sequalize, PostgreSQL y Firebase.</p>
       </div>
       <div className='about-container__img'>
         <img src={perfil} alt="perfil" />
