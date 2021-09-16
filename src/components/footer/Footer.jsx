@@ -23,9 +23,9 @@ const Footer = () => {
           <a href="https://github.com/Gantalf " target='_blank' rel='noreferrer'>
             <i className='fab fa-github github'></i>
           </a>
-          <a href="https://twitter.com/pereira22995" target='_blank' rel='noreferrer'>
+          {/* <a href="https://twitter.com/pereira22995" target='_blank' rel='noreferrer'>
             <i className='fab fa-twitter twitter'></i>
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>
