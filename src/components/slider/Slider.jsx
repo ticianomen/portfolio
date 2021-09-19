@@ -5,7 +5,6 @@ import Data from './Data';
 import './Slider.css'
 
 const Slider = () => {
-  console.log(Data)
   return (
     <div className='carousel-container'>
       <div className='carousel-container__title'>

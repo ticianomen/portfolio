@@ -25,9 +25,9 @@ const slidesData = [
 
 ]
 
-const slides = slidesData.map(slide => (
+const slides = slidesData.map((slide,index) => (
 
-  <div className='slide-container'>
+  <div className='slide-container' key ={index}>
     <a href={slide.redirect} target='_blank' rel='noreferrer'>
       <img src={slide.src} alt={slide.alt} />
       <div className='slide-container__desc'>
