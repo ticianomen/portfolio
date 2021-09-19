@@ -17,7 +17,7 @@
 .slide-container{
   height: 70%;
   border-radius: 40px;
-  margin: 15px;
+  margin: 0;
   overflow: hidden;
   position: relative;
   cursor: pointer;

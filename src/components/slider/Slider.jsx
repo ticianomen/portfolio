@@ -23,6 +23,7 @@ const Slider = () => {
         breakpoints={{
           960: {
             plugins: [
+              'arrows',
               {
                 resolve: slidesToShowPlugin,
                 options: {
