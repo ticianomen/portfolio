@@ -4,8 +4,8 @@ import './Slider.css';
 const slidesData = [
   {
     src: 'https://user-images.githubusercontent.com/83244923/133920153-30181a67-ca6d-4d31-8a24-04f798c58d03.png',
-    alt: 'ToDoList',
-    redirect: 'https://todolist-jtn77038j-ticianomen.vercel.app/'
+    alt: 'ToDoApp',
+    redirect: 'https://todolist-q3l3h2l10-ticianomen.vercel.app/'
   },
   {
     src: 'https://user-images.githubusercontent.com/83244923/133920669-409bc435-70e1-4750-b83f-7ea362a384c3.png',
