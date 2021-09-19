@@ -12,7 +12,7 @@ const About = () => {
           Some technologies I'm used to: React ( javascript amd typescript ), Redux, Express, Sequelize, PostgreSQL and Firebase.</p>
       </div>
       <div className='about-container__img'>
-        <img src={perfil} alt="perfil" style={{borderRadius:50}}/>
+        <img src={perfil} alt="perfil" />
       </div>
     </div>
   )
