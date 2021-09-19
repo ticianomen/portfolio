@@ -4,24 +4,24 @@ import './Slider.css';
 
 const slidesData = [
   {
-    src: 'https://images.unsplash.com/photo-1522338140262-f46f5913618a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80',
-    alt: 'Marketplace',
-    redirect: 'https://github.com/mist-tech-or/mist'
+    src: 'https://user-images.githubusercontent.com/83244923/133920153-30181a67-ca6d-4d31-8a24-04f798c58d03.png',
+    alt: 'ToDoList',
+    redirect: 'https://www.ticianomensegue.com.ar/'
   },
   {
-    src: 'https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
+    src: 'https://user-images.githubusercontent.com/83244923/133920669-409bc435-70e1-4750-b83f-7ea362a384c3.png',
     alt: 'MovieApp',
-    redirect: 'https://github.com/Gantalf/Movies-App'
+    redirect: 'https://movies-sable-eta.vercel.app/'
   },
   {
-    src: 'https://images.unsplash.com/photo-1521055447672-2fa9530db421?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80',
-    alt: 'FanDogs',
-    redirect: 'https://github.com/Gantalf/PI-Dogs-FT14b'
+    src: 'https://user-images.githubusercontent.com/83244923/133920666-b1072ca4-30e1-40f6-912e-d54966b171be.png',
+    alt: 'FoodApp',
+    redirect: 'https://pi-food-ft-14b-g4l4ghygu-ticianomen.vercel.app/'
   },
   {
-    src: 'https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80',
+    src: 'https://user-images.githubusercontent.com/83244923/133920670-59434d7b-0ca1-4c0c-89fc-2e51b03c6fe0.png',
     alt: 'WeatherApp',
-    redirect: 'https://github.com/Gantalf/Weather-App'
+    redirect: 'https://wheather-app-3wccr5wii-ticianomen.vercel.app/'
   }
 
 ]
