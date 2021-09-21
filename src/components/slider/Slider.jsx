@@ -16,7 +16,7 @@ const Slider = () => {
           {
             resolve: slidesToShowPlugin,
             options: {
-              numberOfSlides: 3,
+              numberOfSlides: 2,
             }
           },
         ]}
